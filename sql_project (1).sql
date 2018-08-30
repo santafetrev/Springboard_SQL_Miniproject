@@ -129,7 +129,7 @@ SELECT
 FROM Bookings B
 JOIN Facilities F
 ON B.facid = F.facid
-WHERE Fac0_rev < 1000 
+""" WHERE Fac_rev < 1000  ???  """
 
 /*
 assume that we have a table fac_rev with 2 columns: facility and revenue.
@@ -138,6 +138,8 @@ Select
 from fac_rev
 where revenue < 1000
 sort by revenue
+
+But how do I get here?
 */
 
 
